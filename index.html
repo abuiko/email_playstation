@@ -30,10 +30,34 @@
             table-layout: fixed;
         }
 
+        .padding {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
         .column {
             display: inline-block;
             vertical-align: top;
             width: 250px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100% !important;
+            }
+
+            .mobile-padding {
+                padding: 40px 20px !important;
+            }
+
+            .mobile-margin {
+                margin: 40px 20px !important;
+            }
+
+            .padding {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
         }
     </style>
 </head>
@@ -60,268 +84,306 @@
                             <td>
                                 <a href="#"><img width="60" src="https://i.ibb.co/jHvctBT/logo.png"
                                         alt="playstation"></a>
+
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td style="background-color: #EEEEEE">
+                <td class="padding" style="background-color: #EEEEEE">
                     <table width="100%" role="presentation">
+
                         <tr>
-                            <td style="padding: 40px 40px 0px 40px">
-                                <a href="#"><img width="520" style="max-width: 100%"
-                                        src="https://i.ibb.co/hcH1zcJ/main.jpg"
-                                        alt="spider-man in the red-black costume"></a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #EEEEEE; padding: 0px 40px 40px">
-                    <table width=" 100%" role="presentation">
-                        <tr>
-                            <td style="background-color: #ffffff;padding: 40px; text-align: center">
-                                <h2 style="font-weight: normal; color: #2e4cad; font-size: 27px; margin-top: 0px">
-                                    Welcome to Marvel’s
-                                    Spider-Man: Miles
-                                    Morales!</h2>
-                                <p style="line-height: 24px; font-size: 17px">In the latest adventure in the Marvel’s
-                                    Spider-Man
-                                    universe, teenager Miles Morales
-                                    is adjusting to his new home while following in the footsteps of his mentor, Peter
-                                    Parker, as a new Spider-Man.<br /><br />
-
-
-                                    But when a fierce power struggle threatens to destroy his new home, the aspiring
-                                    hero realizes that with great power, there must also come great responsibility. To
-                                    save all of Marvel’s New York, Miles must take up the mantle of Spider-Man and own
-                                    it.</p>
-
-
-                                <!-- INSERT BUTTON HERE -->
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #eeeeee; padding: 0px 40px 40px">
-                    <table width="100%" role="presentation">
-                        <tr>
-                            <td style="background-color: #ffffff; text-align: center">
-                                <h2 style="font-weight: normal; color: #2e4cad; font-size: 27px;">Daily
-                                    Bugle Now</h2>
-                                <a href="#"><img width="540" style="max-width: 100%"
-                                        src="https://i.ibb.co/s2HtvpY/daily.jpg"
-                                        alt="building facade with daily bugle name on it"></a>
-                                <p style="line-height: 24px; font-size: 17px; margin: 40px">
-                                    Explore the latest editions of the biggest publication out of Marvel’s New York and
-                                    catch up on the events leading up to Marvel’s Spider-Man: Miles Morales. With a
-                                    modern look and fresh ideas on the city, crime, Spider-Man and more, this isn’t the
-                                    Daily Bugle you’ve read before. This is Daily Bugle Now.</p>
-
-
-                                <!-- INSERT BUTTON HERE -->
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #eeeeee; padding: 0px 40px 40px">
-                    <table width="100%" role="presentation">
-                        <tr>
-                            <td style="background-color: #ffffff;">
-
-                                <table class="column" role="presentation">
+                            <td>
+                                <table width="100%" role="presentation">
                                     <tr>
-                                        <td>
-                                            <a href="#">
-                                                <img width="250" style="max-width: 100%;"
-                                                    src="https://i.ibb.co/xHxh62S/miles.jpg" alt="miles morales">
-                                            </a>
+                                        <td style="padding-top: 40px; padding-bottom: 0px">
+                                            <a href="#"><img width="520" style="max-width: 100%"
+                                                    src="https://i.ibb.co/hcH1zcJ/main.jpg"
+                                                    alt="spider-man in the red-black costume"></a>
                                         </td>
                                     </tr>
                                 </table>
-                                <table class="column" role="presentation">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #EEEEEE; padding-top: 0px; padding-bottom: 40px">
+                                <table width=" 100%" role="presentation">
                                     <tr>
-                                        <td style="padding: 20px">
-                                            <h3
-                                                style="margin-top: 0px; margin-bottom: 5px;  color: #2D64E6; font-size: 20px; font-weight: normal">
-                                                The rise of Miles
-                                                Morales</h3>
-                                            <p style="margin-bottom: 0px; line-height: 24px; font-size: 15px">Miles
-                                                discovers explosive powers
-                                                that set him apart from his
-                                                mentor,
-                                                Peter Parker. Master his unique, bio-electric venom blast
-                                                attacks and
-                                                covert camouflage power alongside spectacular web-slinging
-                                                acrobatics,
-                                                gadgets and skills.</p>
+                                        <td class="mobile-padding"
+                                            style="background-color: #ffffff;padding: 40px; text-align: center">
+                                            <h2
+                                                style="font-weight: normal; color: #2e4cad; font-size: 27px; margin-top: 0px">
+                                                Welcome to Marvel’s
+                                                Spider-Man: Miles
+                                                Morales!</h2>
+                                            <p style="line-height: 24px; font-size: 17px">In the latest adventure in the
+                                                Marvel’s
+                                                Spider-Man
+                                                universe, teenager Miles Morales
+                                                is adjusting to his new home while following in the footsteps of his
+                                                mentor, Peter
+                                                Parker, as a new Spider-Man.<br /><br />
+
+
+                                                But when a fierce power struggle threatens to destroy his new home, the
+                                                aspiring
+                                                hero realizes that with great power, there must also come great
+                                                responsibility. To
+                                                save all of Marvel’s New York, Miles must take up the mantle of
+                                                Spider-Man and own
+                                                it.</p>
+
+
+                                            <!-- INSERT BUTTON HERE -->
                                         </td>
                                     </tr>
-
                                 </table>
                             </td>
                         </tr>
-
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #eeeeee; padding: 0px 40px 40px">
-                    <table width="100%" role="presentation">
                         <tr>
-                            <td style="background-color: #ffffff;">
-
-                                <table class="column" role="presentation">
+                            <td style="background-color: #eeeeee; padding-top: 0px; padding-bottom: 40px">
+                                <table width="100%" role="presentation">
                                     <tr>
-                                        <td>
-                                            <a href="#">
-                                                <img width="350" style="max-width: 100%;"
-                                                    src="https://i.ibb.co/JvtS4LD/miles2.jpg"
-                                                    alt="spider-man in translucent consume hanging in the air">
-                                            </a>
+                                        <td style="background-color: #ffffff; text-align: center">
+                                            <h2 style="font-weight: normal; color: #2e4cad; font-size: 27px;">Daily
+                                                Bugle Now</h2>
+                                            <a href="#"><img width="540" style="max-width: 100%"
+                                                    src="https://i.ibb.co/s2HtvpY/daily.jpg"
+                                                    alt="building facade with daily bugle name on it"></a>
+                                            <p class="mobile-margin"
+                                                style="line-height: 24px; font-size: 17px; margin: 40px">
+                                                Explore the latest editions of the biggest publication out of Marvel’s
+                                                New York and
+                                                catch up on the events leading up to Marvel’s Spider-Man: Miles Morales.
+                                                With a
+                                                modern look and fresh ideas on the city, crime, Spider-Man and more,
+                                                this isn’t the
+                                                Daily Bugle you’ve read before. This is Daily Bugle Now.</p>
+
+
+                                            <!-- INSERT BUTTON HERE -->
                                         </td>
                                     </tr>
                                 </table>
-                                <table class="column" role="presentation">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #eeeeee; padding-top: 0px; padding-bottom: 40px">
+                                <table width="100%" role="presentation">
                                     <tr>
-                                        <td style="padding: 20px">
-                                            <h3
-                                                style="margin-top: 0px; margin-bottom: 5px; color: #2D64E6; font-size: 20px; font-weight: normal">
-                                                A war for power</h3>
-                                            <p style="margin-bottom: 0px; line-height: 24px; font-size: 15px">A fierce
-                                                war for control of Marvel’s New York has broken out between a devious
-                                                energy corporation and a high-tech criminal army. With his new home at
-                                                the heart of the battle, Miles learns the cost of becoming a hero.</p>
+                                        <td style="background-color: #ffffff;">
+
+                                            <table class="column" role="presentation">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">
+                                                            <img style="max-width: 100%; width: 400px"
+                                                                src="https://i.ibb.co/xHxh62S/miles.jpg"
+                                                                alt="miles morales">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="column" role="presentation">
+                                                <tr>
+                                                    <td style="padding: 20px">
+                                                        <h3
+                                                            style="margin-top: 0px; margin-bottom: 5px;  color: #2D64E6; font-size: 20px; font-weight: normal">
+                                                            The rise of Miles
+                                                            Morales</h3>
+                                                        <p
+                                                            style="margin-bottom: 0px; line-height: 24px; font-size: 15px">
+                                                            Miles
+                                                            discovers explosive powers
+                                                            that set him apart from his
+                                                            mentor,
+                                                            Peter Parker. Master his unique, bio-electric venom blast
+                                                            attacks and
+                                                            covert camouflage power alongside spectacular web-slinging
+                                                            acrobatics,
+                                                            gadgets and skills.</p>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
                                         </td>
                                     </tr>
 
                                 </table>
                             </td>
                         </tr>
-
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-color: #eeeeee; padding: 0px 40px 40px">
-                    <table width="100%" role="presentation">
                         <tr>
-                            <td style="background-color: #ffffff;">
-
-                                <table class="column" role="presentation">
+                            <td style="background-color: #eeeeee; padding-top: 0px; padding-bottom: 40px">
+                                <table width="100%" role="presentation">
                                     <tr>
-                                        <td>
-                                            <a href="#">
-                                                <img width="350" style="max-width: 100%;"
-                                                    src="https://i.ibb.co/cN0Wy6L/miles3.jpg"
-                                                    alt="spider-man in the air holding web">
-                                            </a>
+                                        <td style="background-color: #ffffff;">
+
+                                            <table class="column" role="presentation">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">
+                                                            <img style="max-width: 100%; width: 400px"
+                                                                src="https://i.ibb.co/JvtS4LD/miles2.jpg"
+                                                                alt="spider-man in translucent consume hanging in the air">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="column" role="presentation">
+                                                <tr>
+                                                    <td style="padding: 20px">
+                                                        <h3
+                                                            style="margin-top: 0px; margin-bottom: 5px; color: #2D64E6; font-size: 20px; font-weight: normal">
+                                                            A war for power</h3>
+                                                        <p
+                                                            style="margin-bottom: 0px; line-height: 24px; font-size: 15px">
+                                                            A fierce
+                                                            war for control of Marvel’s New York has broken out between
+                                                            a devious
+                                                            energy corporation and a high-tech criminal army. With his
+                                                            new home at
+                                                            the heart of the battle, Miles learns the cost of becoming a
+                                                            hero.</p>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #eeeeee; padding-top: 0px; padding-bottom: 40px">
+                                <table width="100%" role="presentation">
+                                    <tr>
+                                        <td style="background-color: #ffffff;">
+
+                                            <table class="column" role="presentation">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">
+                                                            <img style="max-width: 100%; width: 400px"
+                                                                src="https://i.ibb.co/cN0Wy6L/miles3.jpg"
+                                                                alt="spider-man in the air holding web">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="column" role="presentation">
+                                                <tr>
+                                                    <td style="padding: 20px">
+                                                        <h3
+                                                            style="margin-top: 0px; margin-bottom: 5px;  color: #2D64E6; font-size: 20px; font-weight: normal">
+                                                            A vibrant new home</h3>
+                                                        <p
+                                                            style="margin-bottom: 0px; line-height: 24px; font-size: 15px">
+                                                            Traverse
+                                                            the snowy streets of Miles’ new, vibrant and bustling
+                                                            neighbourhood as
+                                                            he searches for a sense of belonging. When the lines blur
+                                                            between his
+                                                            personal and crime-fighting lives, he discovers who he can
+                                                            trust, and
+                                                            what it feels like to truly be home.</p>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="background-color: #eeeeee; padding-top: 0px; padding-bottom: 40px">
+                                <table width="100%" role="presentation">
+                                    <tr>
+                                        <td style="background-color: #ffffff; text-align: center; padding-bottom: 40px">
+                                            <h2 style="font-weight: normal; color: #073ce9; font-size: 27px;">Try out
+                                                Game Help</h2>
+                                            <a href="#"><img width="740" style="max-width: 100%"
+                                                    src="https://i.ibb.co/CwS0NZK/spiderman.gif" alt=""></a>
+                                            <p class="mobile-margin"
+                                                style="line-height: 24px; font-size: 17px; margin: 40px">
+                                                Explore the latest editions of the biggest publication out of Marvel’s
+                                                New York and
+                                                catch up on the events leading up to Marvel’s Spider-Man: Miles Morales.
+                                                With a
+                                                modern look and fresh ideas on the city, crime, Spider-Man and more,
+                                                this isn’t the
+                                                Daily Bugle you’ve read before. This is Daily Bugle Now.</p>
+
+
+                                            <!-- INSERT BUTTON HERE -->
+
+                                            <p
+                                                style="text-align: center; margin: 0px 40px; font-size: 15px; color: #969696">
+                                                *PS
+                                                Plus is subject to a recurring
+                                                subscription fee taken
+                                                automatically until
+                                                cancellation. Age restrictions apply. Full terms: <a
+                                                    style="color: rgb(35, 35, 250)" href="#">
+                                                    play.st/PSPlusTerms</a></p>
                                         </td>
                                     </tr>
                                 </table>
-                                <table class="column" role="presentation">
+                            </td>
+                        </tr>
+
+                        <!-- INSERT PG SECTION -->
+
+
+                        <tr>
+                            <td class="mobile-padding" style="background-color: #eeeeee; padding: 20px 60px 40px">
+                                <table width="100%" role="presentation">
                                     <tr>
-                                        <td style="padding: 20px">
-                                            <h3
-                                                style="margin-top: 0px; margin-bottom: 5px;  color: #2D64E6; font-size: 20px; font-weight: normal">
-                                                A vibrant new home</h3>
-                                            <p style="margin-bottom: 0px; line-height: 24px; font-size: 15px">Traverse
-                                                the snowy streets of Miles’ new, vibrant and bustling neighbourhood as
-                                                he searches for a sense of belonging. When the lines blur between his
-                                                personal and crime-fighting lives, he discovers who he can trust, and
-                                                what it feels like to truly be home.</p>
+                                        <td style="text-align: center">
+                                            <a href="#"><img width="100" src="https://i.ibb.co/jJmzkkF/marvel.jpg"
+                                                    alt="marvel"></a>
+                                            <p style="color: #818181; font-size: 15px">© 2022 Sony Interactive
+                                                Entertainment LLC.
+                                            </p>
+                                            <p style="color: #818181; font-size: 15px">"PlayStation Family Mark",
+                                                "PlayStation",
+                                                "PS5", "PS4 logo" and "Play Has No Limits"
+                                                are registered trademarks or trademarks of Sony Interactive
+                                                Entertainment Inc.</p>
+                                            <p style="color: #818181; font-size: 15px">All games featured are
+                                                trademarked and
+                                                copyrighted properties of their respective
+                                                publishers and/or licensors.</p>
+                                            <p style="color: #818181; font-size: 15px">This e-mail message has been
+                                                delivered from a
+                                                send-only address. Please do not reply
+                                                to this message. For more information about your account, please visit
+                                                the link
+                                                below. Support: <a href="#"
+                                                    style="color: #818181">https://www.playstation.com/corporate/contactus/</a>
+                                            </p>
+                                            <p style="color: #818181; font-size: 15px">Sony Interactive Entertainment
+                                                LLC, 2207
+                                                Bridgepointe Pkwy, San Mateo, CA 94404, USA
+                                                <a href="#" style="color: #818181"> www.playstation.com.</a>
+                                            </p>
                                         </td>
                                     </tr>
-
                                 </table>
                             </td>
                         </tr>
-
                     </table>
                 </td>
             </tr>
 
-            <tr>
-                <td style="background-color: #eeeeee; padding: 0px 40px 40px">
-                    <table width="100%" role="presentation">
-                        <tr>
-                            <td style="background-color: #ffffff; text-align: center; padding-bottom: 40px">
-                                <h2 style="font-weight: normal; color: #073ce9; font-size: 27px;">Try out Game Help</h2>
-                                <a href="#"><img width="740" style="max-width: 100%"
-                                        src="https://i.ibb.co/CwS0NZK/spiderman.gif" alt=""></a>
-                                <p style="line-height: 24px; font-size: 17px; margin: 40px">
-                                    Explore the latest editions of the biggest publication out of Marvel’s New York and
-                                    catch up on the events leading up to Marvel’s Spider-Man: Miles Morales. With a
-                                    modern look and fresh ideas on the city, crime, Spider-Man and more, this isn’t the
-                                    Daily Bugle you’ve read before. This is Daily Bugle Now.</p>
-
-
-                                <!-- INSERT BUTTON HERE -->
-
-                                <p style="text-align: center; margin: 0px 40px; font-size: 15px; color: #969696">*PS
-                                    Plus is subject to a recurring
-                                    subscription fee taken
-                                    automatically until
-                                    cancellation. Age restrictions apply. Full terms: <a style="color: rgb(35, 35, 250)"
-                                        href="#">
-                                        play.st/PSPlusTerms</a></p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-
-            <!-- INSERT PG SECTION -->
-
-
-            <tr>
-                <td style="background-color: #eeeeee; padding: 20px 60px 40px">
-                    <table width="100%" role="presentation">
-                        <tr>
-                            <td style="text-align: center">
-                                <a href="#"><img width="100" src="https://i.ibb.co/jJmzkkF/marvel.jpg" alt="marvel"></a>
-                                <p style="color: #818181; font-size: 15px">© 2022 Sony Interactive Entertainment LLC.
-                                </p>
-                                <p style="color: #818181; font-size: 15px">"PlayStation Family Mark", "PlayStation",
-                                    "PS5", "PS4 logo" and "Play Has No Limits"
-                                    are registered trademarks or trademarks of Sony Interactive Entertainment Inc.</p>
-                                <p style="color: #818181; font-size: 15px">All games featured are trademarked and
-                                    copyrighted properties of their respective
-                                    publishers and/or licensors.</p>
-                                <p style="color: #818181; font-size: 15px">This e-mail message has been delivered from a
-                                    send-only address. Please do not reply
-                                    to this message. For more information about your account, please visit the link
-                                    below. Support: <a href="#"
-                                        style="color: #818181">https://www.playstation.com/corporate/contactus/</a> </p>
-                                <p style="color: #818181; font-size: 15px">Sony Interactive Entertainment LLC, 2207
-                                    Bridgepointe Pkwy, San Mateo, CA 94404, USA
-                                    <a href="#" style="color: #818181"> www.playstation.com.</a>
-                                </p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
         </table>
     </center>
 </body>
 
-<!-- <img src="https://i.ibb.co/hcH1zcJ/main.jpg" alt="main" border="0">
-<img src="https://i.ibb.co/88XFY2J/top.jpg" alt="top" border="0">
-<img src="https://i.ibb.co/s2HtvpY/daily.jpg" alt="daily" border="0">
-<img src="https://i.ibb.co/xHxh62S/miles.jpg" alt="miles" border="0">
-<img src="https://i.ibb.co/JvtS4LD/miles2.jpg" alt="miles2" border="0">
-<img src="https://i.ibb.co/cN0Wy6L/miles3.jpg" alt="miles3" border="0">
-<img src="https://i.ibb.co/CwS0NZK/spiderman.gif" alt="spiderman" border="0">
-<img src="https://i.ibb.co/jHvctBT/logo.png" alt="logo" border="0">
-<img src="https://i.ibb.co/P55Vqw4/footer.png" alt="footer" border="0">
-<img src="https://i.ibb.co/SXpPPXt/pg.png" alt="pg" border="0">
-<img src="https://i.ibb.co/jJmzkkF/marvel.jpg" alt="marvel" border="0"> -->
 
 </html>
