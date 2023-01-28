@@ -1,0 +1,1 @@
+Remade responsive promotional Email from Playstation using HTML tables  
